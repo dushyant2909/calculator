@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f5f5f5; /* Light gray background color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.outer-box {
+    max-width: 200px;
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 10px;
+    background: #fff; /* White background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow for depth */
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+#input-display-box{
+    text-align: right;
+    padding: 0px 5px;
+    overflow: hidden;
+    height: 30px;
+    font-size: 16px;
+}
+
+.buttons-outer-box {
+    
+    padding: 8px 5px;
+    border: 1px solid #666; /* Dark gray border */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #bdc3c7; /* Background color for buttons container */
+    border-radius: 8px; /* Rounded corners for a softer look */
+}
+
+.calci-buttons {
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    background: #2c3e50; /* Green background color for buttons */
+    color: #ffffffdc; /* White text color for buttons */
+    border: 1px solid white;
+    border-radius: 4px; /* Rounded corners for buttons */
+}
+
+.input-display-box{
+    height: 38px;
+    font-size: large;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: #ecf0f1;
+}
